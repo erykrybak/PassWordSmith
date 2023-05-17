@@ -44,8 +44,10 @@ void Combinations::CreateCombinations(int level)
                 continue;
             }
             else {
-                temporary += Combinations::userInput[i];
+                temporary += Combinations::userInput[j];
+                MyFile << temporary << std::endl;
             }
         }
     }
+    MyFile.close();
 }

@@ -22,6 +22,7 @@ int main() {
 
     Combinations mainObject(userInput);
     mainObject.CreateWordlist();
+    mainObject.CreateCombinations(3);
 }
 
 
